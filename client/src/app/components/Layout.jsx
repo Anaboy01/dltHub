@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
   return (
     <div className="relative select-none">
       <Nav />
-      <Sidebar />
+      {/* <Sidebar /> */}
       {children}
       <Footer />
     </div>
